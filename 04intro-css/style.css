@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "century-gothic", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     background-color: #dad4c7;
 }
 
@@ -12,10 +12,10 @@ header {
 }
 
 header span {
-    font-family: "ganache", sans-serif;
+    font-family: "Molle", cursive;
     color: #a2452d;
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 900;
 }
 
 /* naviation stuff here */
@@ -56,14 +56,14 @@ main {
 }
 
 main h1 {
-    font-family: "ganache", sans-serif;
+    font-family: "Molle", cursive;
     color: #658471;
-    font-weight: 400;
-    font-size: 3rem;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 main h2 {
-    font-family: "century-gothic", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     color: #a2452d;
     margin-bottom: .5rem;
 }
