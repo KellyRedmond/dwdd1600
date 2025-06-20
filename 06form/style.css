@@ -147,11 +147,11 @@ main a:hover {
     margin: .5rem;
 }
 
-.eventForm label, .eventForm select, .eventForm [type=text], .eventForm [type=tel], .eventForm textarea {
+.eventForm label, .eventForm select, .eventForm [type=text], .eventForm [type=tel], .eventForm [type=email], .eventForm textarea {
     display: block;
 }
 
-.eventForm [type=text], .eventForm [type=tel], .eventForm select, .eventForm textarea {
+.eventForm [type=text], .eventForm [type=tel], .eventForm [type=email], .eventForm select, .eventForm textarea {
     border: solid 1px #658471;
     padding: .3rem;
     width: 250px;
