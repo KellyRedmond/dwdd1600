@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kelly Redmond">
+    <meta name="description" content="Advertise and Provide information for Moonlight Roller Rink">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Molle&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <title>Moonlight Roller Rink</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <img src="images/logo.png" alt="logo for Moonlight Roller Rink" width="50" height="43">
+        <span>Moonlight Roller Rink</span>
+        <img src="images/logo.png" alt="logo for Moonlight Roller Rink" width="50" height="43">
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="music.html">Music & DJs</a></li>
+            <li><a href="locations.html">Locations & Hours</a></li>
+            <li class="active"><a href="events.html">Calendar & Events</a></li>
+            <li><a href="shop.html">Skate Shop</a></li>
+        </ul>
+
+    </nav>
+    <!-- start the main content -->
+    <main>
+        <h1>Schedule an Event</h1>
+
+        <form method="get" class="eventForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Event Type</legend>
+                <label><input type="radio" name="method" value="birthday">Birthday Party</label>
+                <label><input type="radio" name="method" value="corp">Corporate Event</label>
+                <label><input type="radio" name="method" value="private">Private Event</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label> Name* <input type="text" name="name" required> </label>
+                <label> Email* <input type="email" name="email" required> </label>
+                <label> Cell Number* <input type="tel" name="phone" required placeholder="801-555-1234"> </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Catering (Optional)</legend>
+                <label><input type="checkbox" name="pizza" value="chosen"> Pizza</label>
+                <label><input type="checkbox" name="cake" value="chosen"> Cake</label>
+                <label><input type="checkbox" name="icecream" value="chosen"> Ice Cream</label>
+            </fieldset>
+
+            <label>Date: (Must be scheduled at least one week in advance)
+                <select name="date">
+                    <option value="none">Please Select</option>
+                    <option value="thursday">Thursday 5:00pm</option>
+                    <option value="friday">Friday 7:00pm</option>
+                    <option value="saturday">Saturday 7:00pm</option>
+                </select>
+            </label>
+
+            <label>Catering Specifications:
+                <textarea name="instructions"></textarea>
+            </label>
+
+
+            <input type="submit" value="Schedule Event">
+        </form>
+
+    </main>
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Kelly Redmond &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
